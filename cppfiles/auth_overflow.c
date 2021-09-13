@@ -12,10 +12,11 @@ int check_auth(char *password){
 }
 
 int main(int argc, char *argv[]){
-    if(argc < 2){printf("Usage: %s <password>\n", argv[0]); exit(0)}
+    if(argc < 2){printf("Usage: %s <password>\n", argv[0]); exit(0);}
     if(check_auth(argv[1])){
         printf("\n----------------------------.");
         printf("\n-------Access Granted-------.");
         printf("\n----------------------------.\n");
+        system("sh");
     }else printf("\nAccess Denied.\n");
 }
