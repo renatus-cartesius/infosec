@@ -17,5 +17,6 @@ int main(int argc, char *argv[]){
         printf("\n----------------------------.");
         printf("\n-------Access Granted-------.");
         printf("\n----------------------------.\n");
+        system("sh");
     }else printf("\nAccess Denied.\n");
 }
