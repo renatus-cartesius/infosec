@@ -1,0 +1,9 @@
+#Ghidra Lock File
+#Sun Jan 23 15:14:01 MSK 2022
+OS\ Name=Linux
+OS\ Version=5.10.0-kali9-amd64
+Username=renatus
+Hostname=cartesius
+<META>\ Supports\ File\ Channel\ Locking=Channel Lock
+OS\ Architecture=amd64
+Timestamp=1/23/22, 3\:14 PM
