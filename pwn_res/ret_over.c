@@ -1,11 +1,9 @@
-#include<stdlib.h>
-#include<unistd.h>
 #include<stdio.h>
 #include<string.h>
-
-void win(){printf("SUCCESSULLY CHANGED!\n");}
-
 int main(int argc, char *argv[]){
-	char buffer[64];
-	gets(buffer);
+	char buf[128];
+	strcpy(buf, argv[1]);
+	printf("Input: %s\n", buf);
+
+	return 0;
 }
